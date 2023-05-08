@@ -1,0 +1,47 @@
+TopLevel [
+  Text {
+      Hello World
+    
+      HI!
+  }
+  gb {
+      A green box
+  }
+  bb {
+      @l;
+      A blue box\nText after break
+  }
+  additional {
+    Additional text
+    @br(3);
+    Another additional text
+  }
+  br(5);
+  l;
+  repeat(5) {
+    laa
+  }
+  yb {
+      \s(4)A yellow box
+      @bb {
+          A blue box in a yellow box
+      }
+  }
+  rb {
+      A red box
+      \n(4)
+      @bb {
+          A blue box in a red box
+      }
+      Text after
+
+      @boo(hello) {
+        world
+
+      }
+      red box
+  }
+  Text {
+      Bye World
+  }
+]

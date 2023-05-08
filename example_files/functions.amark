@@ -1,0 +1,26 @@
+p {
+    hi
+}
+br (1);
+p { Hello}
+br(5);
+p{
+    Hello
+	@br(3);
+
+    @ro(hi,7) {
+        hello
+
+        @p {
+            hi
+
+            @ri(good day){
+                bye
+
+            }
+        }
+
+    }
+
+	World
+}
